@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+.popup {
+    position: absolute;
+    bottom: 60px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 2px 2px 50px rgb(105, 105, 105);
+}
+
+@media(max-width: 1030px) {
+    .nav_bar > div, .nav_bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav_bar > div {
+        gap: 20px;
+    }
+    .swiggyLogo {
+        margin-bottom: 50px;
+    }
+    .restPage {
+        margin: 0px 5vw;
+    }
+    .extraBar {
+        width: 90vw;
+    }
+    .mainCards {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footerBottom {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .footerPart {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .headerImage {
+        display: none;
+    }
+    .cart {
+        width: 80%;
+    }
+}
+@media(max-width: 650px) {
+    .footerBottom {
+        flex-direction: column;
+    }
+    .footerPart {
+        flex-direction: column;
+    }
+    .footerPart ul {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 550px) {
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .largeInput {
+        min-width:fit-content;
+    }
+    .secHeader {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .headerLoc {
+        display: none;
+    }
+}
+@media(max-width: 450px) {
+    .cartItems {
+        flex-wrap: wrap;
+    }
+}
