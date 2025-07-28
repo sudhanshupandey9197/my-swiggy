@@ -42,7 +42,7 @@ A **frontend clone of Swiggy**, India's leading food delivery platform, built us
 
 ## 📺 Live Demo
 
-[🔗 View on Netlify](#) *(https://myswiggysite.netlify.app/)*
+[🔗 View on Netlify](#) *(my-swiggy-site.netlify.app)*
 - **Note**: View on Desktop Mode in mobile. The program is compatible with API data fetched on desktop only.
 
 ## 🧠 What I Learned
