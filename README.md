@@ -52,11 +52,5 @@ A **frontend clone of Swiggy**, India's leading food delivery platform, built us
 - Managing routes and UI with React Router
 - Tailwind for fast, responsive UI development
 
-## 🖥️ Run Locally
 
-```bash
-git clone https://github.com/Gnani31/my-swiggy-site.git
-cd my-swiggy-site
-npm install
-npx parcel src/index.html
 
